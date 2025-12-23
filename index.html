@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Destino</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="scene active" id="scene1">
+    <p class="text">
+      Hay caminos que no se eligen.<br>
+      Te eligen.
+    </p>
+    <input id="word" placeholder="Una palabra">
+    <button onclick="checkWord()">Continuar</button>
+  </div>
+
+  <div class="scene" id="scene2">
+    <p class="text">
+      Algunas fechas no se celebran.<br>
+      Se recuerdan.
+    </p>
+    <input id="date" placeholder="Escríbela">
+    <button onclick="checkDate()">Recordar</button>
+  </div>
+
+  <div class="scene" id="scene3">
+    <h1>TOKIO</h1>
+    <p class="final">
+      El mundo es grande.<br>
+      Pero hay lugares que solo tienen sentido contigo.
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

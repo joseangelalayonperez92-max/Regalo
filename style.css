@@ -1,0 +1,6 @@
+/* estilos base - edítalos como quieras */
+body { font-family: system-ui, sans-serif; margin: 2rem; }
+.scene { display: none; }
+.scene.active { display: block; }
+.text { font-size: 1.25rem; margin-bottom: 1rem; }
+.final { font-size: 1.5rem; font-weight: bold; }
